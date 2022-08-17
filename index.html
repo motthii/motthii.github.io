@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>My profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <h1 class="logo">My profile</h1>
+            <ul class="menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#qualification">Qualification</a></li> 
+            </ul>
+            
+
+        </nav>
+        <div class="text-area">
+            <img src="images/A8nzp5x.jpg" alt="">
+            <p class="text">
+                <h2 id="about">About me</h2>
+                <ul>
+                    <li>My name is yuto kusumoto</li>
+                    <li>Born on October 13, 2003</li>
+                    <li>Entered Sayama Junior High School in 2016</li>
+                    <li>Graduated from Sayama Junior High School in 2019</li>
+                    <li>Entered Hatsushiba Tondabayashi High School in 2019</li>
+                    <li>Graduated from Hatsushiba Tondabayashi High School in 2022</li>
+                    <li>Entered Ritsumeikan University in 2022</li>
+                    <li>立命館大学プロジェクト団体　RiST所属</li>
+                    <li>立命館大学サークル　Free Music Circle PEACE 所属</li>
+                    <li>趣味　漫画読む事　
+                        映画見る事      </li>
+                    
+                </ul>
+                
+            
+                <h3 id="qualification">Qualification</h3>
+                <li>Coming soon</li>
+
+
+            
+
+            </p>
+
+
+        <div class="wrapper">
+            <div class="button">
+                <div class="icon"><i class="fab fa-twitter"></i></div>
+                <span><a href="https://twitter.com/motthimotthimot">Twitter</a></span>
+                
+            </div>
+            <div class="button">
+                <div class="icon"><i class="fab fa-instagram"></i></div>
+                <span><a href="https://www.instagram.com/k.yuto_02/">Instagram</a></span>
+            </div>
+            <div class="button">
+                <div class="icon"><i class="fab fa-github"></i></div>
+                <span><a href="https://github.com/motthii">Github</a></span>
+            </div>
+        </div>
+        </div>    
+
+
+        </div>
+        <script>
+            const menu = document.querySelector(".menu");
+            const navbar = document.querySelector(".navbar");
+            window.addEventListener("scroll", () => {
+        if (window.pageYOffset >= menu.offsetTop) {
+          //stickyクラスをnavbarに付与する。
+            navbar.classList.add("sticky");
+        } else {
+            navbar.classList.remove("sticky");
+        }
+        });
+        </script>
+
+    </div>
+</body>
+</html>

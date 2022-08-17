@@ -1,0 +1,14 @@
+
+.next_container{
+    padding: 10px;
+    display: flex;
+    justify-content:  space-between;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+}
